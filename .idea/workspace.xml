@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e67f8d4-9a32-495d-928a-49b7e70de31a" name="Default Changelist" comment="" />
+    <list default="true" id="7e67f8d4-9a32-495d-928a-49b7e70de31a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript/alert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Chessboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/TDS.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/tds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/TheCanCuoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/cancuoc.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +22,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iU38pf3fAxbl44ewbAmMGpp2dD" />
   <component name="ProjectViewState">
@@ -37,7 +47,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601948187253</updated>
-      <workItem from="1601948190038" duration="12930000" />
+      <workItem from="1601948190038" duration="14711000" />
+      <workItem from="1602036331939" duration="511000" />
     </task>
     <servers />
   </component>
