@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+    p{
+        font-size: larger;
+    }
+</style>
+    <b><i><u><p>Điền điểm các môn</p></u></i></b>
+    <input type="number" id="ly" placeholder="Vật Lý"><br><br>
+    <input type="number" id="hoa" placeholder="Hóa Học"><br><br>
+    <input type="number" id="sinh" placeholder="Sinh Học" ><br><br>
+    <button type="button" onclick="avg()">Tính</button>
+    <b><i><u><p>Điểm trung bình các môn</p></u></i></b>
+    <output type="number" id="tbc">
+<script>
+    function avg() {
+        let a = +document.getElementById("ly").value;
+        let b = +document.getElementById("hoa").value;
+        let c = +document.getElementById("sinh").value;
+        let tbc = (a+b+c)/3;
+        document.getElementById("tbc").innerHTML = tbc;
+    }
+</script>
+
+</body>
+</html>
