@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e67f8d4-9a32-495d-928a-49b7e70de31a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bien/currency.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
       <workItem from="1601948190038" duration="14711000" />
       <workItem from="1602036331939" duration="2116000" />
       <workItem from="1602060670384" duration="4380000" />
-      <workItem from="1602127623010" duration="6642000" />
+      <workItem from="1602127623010" duration="9961000" />
     </task>
     <servers />
   </component>

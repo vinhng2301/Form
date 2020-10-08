@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>doi tien</title>
+</head>
+<body>
+<b><p>&emsp;&emsp;Amount&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;From Currency
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;To Currency</p></b>
+<input type="number" id="tien">&emsp;&emsp;&emsp;
+<select name="" id="from">
+    <option value="23000" id="fromvnd">Vietnamdong</option>
+    <option value="1" id="fromdollar">US Dollar</option>
+</select>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<select name="" id="to">
+    <option value="23000" id="tovnd">Vietnamdong</option>
+    <option value="1" id="todollar">US Dollar</option>
+</select>
+    <br><br>
+    <button type="button" onclick="exchange()">Exchange</button>
+<p id="result"></p>
+<script>
+    function exchange () {
+        let a = +document.getElementById("to").value;
+        let b = +document.getElementById("from").value;
+        let m = +document.getElementById("tien").value;
+        let r = m/b*a;
+        document.getElementById("result").innerHTML = r;
+
+    }
+
+</script>
+
+</body>
+</html>
