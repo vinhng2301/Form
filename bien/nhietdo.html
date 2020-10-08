@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhietdo</title>
+</head>
+<body>
+
+<i><b>Độ C </b></i>
+<input id="doC" type="number">
+<button type="button" onclick="trans()">Chuyển đổi</button>
+<i><b>Độ F</b></i>
+<output type="number" id="doF">
+<script>
+    function trans() {
+        let c = +document.getElementById("doC").value;
+        let f = c/5*9+32
+        document.getElementById("doF").innerHTML = f
+    }
+</script>
+
+</body>
+</html>
