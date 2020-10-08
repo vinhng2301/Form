@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DienTichHinhTron</title>
+</head>
+<body>
+<input type="number" id="bankinh" placeholder="Bán kính"><br><br>
+<input type="number" id="chuvi" placeholder="Chu vi"><br><br>
+<input type="number" id="duongkinh" placeholder="Đường kính"><br><br>
+<button type="button" onclick="tinh()">Tính</button>
+<i><b><p>Đây là diện tích hình tròn</p></b></i>
+<p type="number" id="dientich">Tính diện tích bằng bán kính</p>
+<p type="number" id="dientich1">Tính diện tích bằng chu vi</p>
+<p type="number" id="dientich2">Tính diện tích bằng đường kính</p>
+
+
+<script>
+    function tinh() {
+        let d = +document.getElementById("duongkinh").value;
+        let c = +document.getElementById("chuvi").value;
+        let r = +document.getElementById("bankinh").value;
+        let s = r*r*Math.PI;
+        let s1 = (c/2/Math.PI)*(c/2/Math.PI)*Math.PI;
+        let s2 = (d/2)*(d/2)*Math.PI;
+        console.log(s);
+        console.log(s1);
+        console.log(s2);
+        document.getElementById("dientich").innerHTML = s;
+        document.getElementById("dientich1").innerHTML = s1;
+        document.getElementById("dientich2").innerHTML = s2;
+    }
+
+</script>
+
+</body>
+</html>
